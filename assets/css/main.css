@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat Regular"), url("../../assets/fonts/Montserrat-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat Medium"), url("../../assets/fonts/Montserrat-Medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display Regular"), url("../../assets/fonts/PlayfairDisplay-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display Italic"), url("../../assets/fonts/PlayfairDisplay-Italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display Bold"), url("../../assets/fonts/PlayfairDisplay-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    /* Main text, UI borders*/
+    --text: rgb(174, 124, 120);
+    /* Buttons */
+    --button: rgb(216, 153, 153);
+    /* Background*/
+    --white: rgb(255, 255, 255);
+    /* Catalog cards overlay. Trans pink 60%*/
+    --overlay: rgba(174, 124, 120, 0.6);
+    /* Contacts background */
+    --contacts: rgb(247, 250, 252);
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
